@@ -28,7 +28,7 @@ title_container.markdown(
 st.header('🔗Brief about COEP : ')
 col1, col2 = st.columns([2, 4])
 with col1:
-    st.image(Image.open('Part_A\Resources\coep.jpg'))
+    st.image(Image.open('Part_A/Resources/coep.jpg'))
     pass
 with col2:
     sub_container = col2.container()
@@ -151,7 +151,7 @@ if sbt_btn_1 or st.session_state.helper_1:
             "<h2 style='text-align: center;'><b>🌐Web Development</b></h2>", unsafe_allow_html=True)
         col1, col2 = st.columns([2, 3])
         with col1:
-            st.image(Image.open('Part_A\Resources\web_dev.jpg'),
+            st.image(Image.open('Part_A/Resources/web_dev.jpg'),
                      use_column_width=True)
 
         web_dev_skillset = {}
@@ -199,7 +199,7 @@ if sbt_btn_1 or st.session_state.helper_1:
             "<h2 style='text-align: center;'><b>📱Mobile App Development</b></h2>", unsafe_allow_html=True)
         col1, col2 = st.columns([2, 3])
         with col1:
-            st.image(Image.open('Part_A\Resources\App_dev.jpeg'),
+            st.image(Image.open('Part_A/Resources/App_dev.jpeg'),
                      use_column_width=True)
 
         app_dev_skillset = {}
@@ -251,7 +251,7 @@ if sbt_btn_1 or st.session_state.helper_1:
             "<h2 style='text-align: center;'><b>📈Data Science and Analytics</b></h2>", unsafe_allow_html=True)
         col1, col2 = st.columns([2, 3])
         with col1:
-            st.image(Image.open('Part_A\Resources\data.jpg'), use_column_width=True)
+            st.image(Image.open('Part_A/Resources/data.jpg'), use_column_width=True)
 
         data_sci_skillset = {}
 
@@ -290,7 +290,7 @@ if sbt_btn_1 or st.session_state.helper_1:
             "<h2 style='text-align: center;'><b>🧠Artificial Intelligence and Machine Learning</b></h2>", unsafe_allow_html=True)
         col1, col2 = st.columns([2, 3])
         with col1:
-            st.image(Image.open('Part_A\Resources\AIML.jpg'), use_column_width=True)
+            st.image(Image.open('Part_A/Resources/AIML.jpg'), use_column_width=True)
 
         aiml_skillset = {}
 
@@ -325,7 +325,7 @@ if sbt_btn_1 or st.session_state.helper_1:
             "<h2 style='text-align: center;'><b>☁️Cloud Engineer</b></h2>", unsafe_allow_html=True)
         col1, col2 = st.columns([2, 3])
         with col1:
-            st.image(Image.open('Part_A\Resources\cloud.png'), use_column_width=True)
+            st.image(Image.open('Part_A/Resources/cloud.png'), use_column_width=True)
 
         cloud_skillset = {}
 
@@ -388,7 +388,7 @@ if sbt_btn_1 or st.session_state.helper_1:
             "<h2 style='text-align: center;'><b>🔢Database Engineer</b></h2>", unsafe_allow_html=True)
         col1, col2 = st.columns([2, 3])
         with col1:
-            st.image(Image.open('Part_A\Resources\database.png'),
+            st.image(Image.open('Part_A/Resources/database.png'),
                      use_column_width=True)
 
         dbms_skillset = {}
@@ -436,7 +436,7 @@ if sbt_btn_1 or st.session_state.helper_1:
             "<h2 style='text-align: center;'><b>👨‍💻Devops Engineer</b></h2>", unsafe_allow_html=True)
         col1, col2 = st.columns([2, 3])
         with col1:
-            st.image(Image.open('Part_A\Resources\devops.jpg'),
+            st.image(Image.open('Part_A/Resources/devops.jpg'),
                      use_column_width=True)
 
         devops_skillset = {}
@@ -480,7 +480,7 @@ if sbt_btn_1 or st.session_state.helper_1:
             "<h2 style='text-align: center;'><b>🕵🏻Cyber Security</b></h2>", unsafe_allow_html=True)
         col1, col2 = st.columns([2, 3])
         with col1:
-            st.image(Image.open('Part_A\Resources\cyber_security.jpg'),
+            st.image(Image.open('Part_A/Resources/cyber_security.jpg'),
                      use_column_width=True)
 
         cs_skillset = {}
