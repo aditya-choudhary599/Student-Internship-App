@@ -15,7 +15,7 @@ st.set_page_config(
 
 if st.session_state["add_photo"] == True:
     with st.sidebar:
-        st.image(Image.open('Part_C\Resources\student.jpg'),
+        st.image(Image.open('Part_C/Resources/student.jpg'),
                  caption=st.session_state["caption_of_photo"])
         st.session_state["retain_photo"]=True
 
@@ -27,7 +27,7 @@ title_container.markdown(
 col1, col2 = st.columns([3, 4])
 
 with col1:
-    st.image(Image.open("Part_C\Resources\internship.jpg"),
+    st.image(Image.open("Part_C/Resources/internship.jpg"),
              use_column_width=True)
 
 with col2:
