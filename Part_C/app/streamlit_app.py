@@ -99,7 +99,7 @@ with tab2:
 
 if st.session_state["add_photo"] == True:
     with st.sidebar:
-        st.image(Image.open('Part_C\Resources\student.jpg'),
+        st.image(Image.open('Part_C/Resources/student.jpg'),
                  caption=getname(log_in_email_id, temp_dict))
         st.session_state["caption_of_photo"] = getname(
             log_in_email_id, temp_dict)
