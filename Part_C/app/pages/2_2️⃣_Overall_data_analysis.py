@@ -17,12 +17,12 @@ st.set_page_config(
 
 if st.session_state["add_photo"] == True:
     with st.sidebar:
-        st.image(Image.open('Part_C\Resources\student.jpg'),
+        st.image(Image.open('Part_C/Resources/student.jpg'),
                  caption=st.session_state["caption_of_photo"])
     title_container = st.container()
     title_container.markdown(
     "<h1 style='text-align: center;'><u>Overall Data Analaysis</u></h1>", unsafe_allow_html=True)
-    overall_df=pd.read_csv("Part_B\Final_Data\Final_overall_data.csv")
+    overall_df=pd.read_csv("Part_B/Final_Data/Final_overall_data.csv")
     st.header('🔗Company Domain Distribution')
     fig_1=px.histogram(overall_df,x='Domain to Hire',text_auto='auto',height=600)
     st.plotly_chart(fig_1,use_container_width=True)
