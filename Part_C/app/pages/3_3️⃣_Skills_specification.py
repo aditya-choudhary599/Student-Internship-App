@@ -18,28 +18,28 @@ st.set_page_config(
 def data_shower(student_sex: str, student_curr_cgpa: float, student_required_domain: str,student_active_backlogs:int,student_dead_backlogs:int) -> None:
     st.subheader("🔗For the selected options,here are comapnies for you.")
     if student_required_domain == '🌐Web Development':
-        df = pd.read_csv('Part_B\Final_Data\Final_web_dev_data.csv')
+        df = pd.read_csv('Part_B/Final_Data/Final_web_dev_data.csv')
 
     elif student_required_domain=="📱Mobile App Development":
-        df=pd.read_csv('Part_B\Final_Data\Final_app_dev_data.csv')
+        df=pd.read_csv('Part_B/Final_Data/Final_app_dev_data.csv')
 
     elif student_required_domain=="📈Data Science and Analytics":
-        df=pd.read_csv('Part_B\Final_Data\Final_data_sci_data.csv')
+        df=pd.read_csv('Part_B/Final_Data/Final_data_sci_data.csv')
 
     elif student_required_domain=='🧠Artificial Intelligence and Machine Learning':
-        df=pd.read_csv('Part_B\Final_Data\Final_aiml_data.csv')
+        df=pd.read_csv('Part_B/Final_Data/Final_aiml_data.csv')
 
     elif student_required_domain=='☁️Cloud Engineer':
-        df=pd.read_csv('Part_B\Final_Data\Final_cloud_data.csv')
+        df=pd.read_csv('Part_B/Final_Data/Final_cloud_data.csv')
 
     elif student_required_domain=='🔢Database Engineer':
-        df=pd.read_csv('Part_B\Final_Data\Final_dbms_data.csv')
+        df=pd.read_csv('Part_B/Final_Data/Final_dbms_data.csv')
 
     elif student_required_domain=='👨‍💻Devops Engineer':
-        df=pd.read_csv('Part_B\Final_Data\Final_devops_data.csv')
+        df=pd.read_csv('Part_B/Final_Data/Final_devops_data.csv')
     
     else:
-        df=pd.read_csv('Part_B\Final_Data\Final_cs_data.csv')
+        df=pd.read_csv('Part_B/Final_Data/Final_cs_data.csv')
 
     df = df.drop(['Unnamed: 0'], axis=1)
     if student_sex == '👦Male':
@@ -58,7 +58,7 @@ def data_shower(student_sex: str, student_curr_cgpa: float, student_required_dom
 
 if st.session_state["add_photo"] == True:
     with st.sidebar:
-        st.image(Image.open('Part_C\Resources\student.jpg'),
+        st.image(Image.open('Part_C/Resources/student.jpg'),
                  caption=st.session_state["caption_of_photo"])
 
     title_container = st.container()
