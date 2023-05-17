@@ -39,7 +39,7 @@ st.set_page_config(
 
 if st.session_state["add_photo"] == True:
     with st.sidebar:
-        st.image(Image.open('Part_C\Resources\student.jpg'),
+        st.image(Image.open('Part_C/Resources/student.jpg'),
                  caption=st.session_state["caption_of_photo"])
         
     title_container = st.container()
@@ -54,8 +54,8 @@ if st.session_state["add_photo"] == True:
 
             with col1:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Photos\Android-App-Development-2.jpg'), use_column_width=True)
-                pdf_helper('Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Android.pdf',
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Photos/Android-App-Development-2.jpg'), use_column_width=True)
+                pdf_helper('Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Android.pdf',
                            'Android Development Roadmap')
 
             with col2:
