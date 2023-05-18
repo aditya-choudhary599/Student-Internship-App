@@ -49,7 +49,7 @@ def data_shower(student_sex: str, student_curr_cgpa: float, student_required_dom
         df = df.drop(['Seats for Boys'], axis=1).query(
             '`Seats for Girls`>0').reset_index(drop=True)
 
-    df = df.query('`Min CGPA` <= @student_curr_cgpa and `Number of Dead Backlogs permitted` >= @student_active_backlogs and `Number of Active Backlogs permitted` >= @ student_dead_backlogs').reset_index(drop=True)
+    df = df.query('`Min CGPA` <= @student_curr_cgpa and `Number of Dead Backlogs permitted` >= @student_dead_backlogs and `Number of Active Backlogs permitted` >= @ student_active_backlogs').reset_index(drop=True)
 
     st.dataframe(df)
 
