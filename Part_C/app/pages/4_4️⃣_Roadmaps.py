@@ -60,21 +60,21 @@ if st.session_state["add_photo"] == True:
 
             with col2:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Photos\Aspnet-core-featured.png'), use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Photos/Aspnet-core-featured.png'), use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Aspnet-core.pdf', 'Aspnet-core Roadmap')
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Aspnet-core.pdf', 'Aspnet-core Roadmap')
 
             with col3:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Photos\Backend_development.jpg'))
-                pdf_helper('Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Backend.pdf',
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Photos/Backend_development.jpg'))
+                pdf_helper('Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Backend.pdf',
                            'Backend Development Roadmap')
 
             with col4:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Photos\Big-data-engineer.jpg'), use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Photos/Big-data-engineer.jpg'), use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Big_data_engineer.pdf', 'Big Data Engineer Roadmap')
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Big_data_engineer.pdf', 'Big Data Engineer Roadmap')
 
         st.text("\n")
         st.text("\n")
@@ -84,27 +84,27 @@ if st.session_state["add_photo"] == True:
 
             with col5:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Photos\Cyber_Security.jpg'), use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Photos/Cyber_Security.jpg'), use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Cyber-security.pdf', 'Cyber Security Roadmap')
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Cyber-security.pdf', 'Cyber Security Roadmap')
 
             with col6:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Photos\Data_Engineering.jpg'), use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Photos/Data_Engineering.jpg'), use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Data_engineer.pdf', 'Data Engineering Roadmap')
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Data_engineer.pdf', 'Data Engineering Roadmap')
 
             with col7:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Photos\Data_Science.jpg'), use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Photos/Data_Science.jpg'), use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Datascience.pdf', 'Data Science Roadmap')
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Datascience.pdf', 'Data Science Roadmap')
 
             with col8:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Photos\Deep_Learningjpg.jpg'), use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Photos/Deep_Learningjpg.jpg'), use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Deep_learning.pdf', 'Deep Learning Roadmap')
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Deep_learning.pdf', 'Deep Learning Roadmap')
 
         st.text("\n")
         st.text("\n")
@@ -114,27 +114,27 @@ if st.session_state["add_photo"] == True:
 
             with col11:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Photos\Devops.jpg'), use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Photos/Devops.jpg'), use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Devops.pdf', 'Devops Engineer Roadmap')
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Devops.pdf', 'Devops Engineer Roadmap')
 
             with col12:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Photos\Frontened_Dev.jpg'), use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Photos/Frontened_Dev.jpg'), use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Frontend.pdf', 'Frontend Developer Roadmap')
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Frontend.pdf', 'Frontend Developer Roadmap')
 
             with col13:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Photos\Full_stack_dev.jpg'), use_column_width=True)
-                pdf_helper('Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Full-stack.pdf',
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Photos/Full_stack_dev.jpg'), use_column_width=True)
+                pdf_helper('Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Full-stack.pdf',
                            'Full Stack Developer Roadmap')
 
             with col14:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\Photos\\Ux_design.jpg'), use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Photos/Ux_design.jpg'), use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Role_Based_Roadmaps\\Ux-design.pdf', 'UX Design Roadmap')
+                    'Part_C/Resources/Roadmaps/Role_Based_Roadmaps/Ux-design.pdf', 'UX Design Roadmap')
 
     with tab2:
         with st.container():
@@ -142,27 +142,27 @@ if st.session_state["add_photo"] == True:
 
             with col15:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Photos\Angular.jpg'), use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Photos/Angular.jpg'), use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Angular.pdf', 'Angular Learning Roadmap')
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Angular.pdf', 'Angular Learning Roadmap')
 
             with col16:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Photos\Design_Sysytem.png'), use_column_width=True)
-                pdf_helper('Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Design-system.pdf',
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Photos/Design_Sysytem.png'), use_column_width=True)
+                pdf_helper('Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Design-system.pdf',
                            'Design System Learning Roadmap')
 
             with col17:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Photos\Docker.png'), use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Photos/Docker.png'), use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Docker.pdf', 'Docker Learning Roadmap')
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Docker.pdf', 'Docker Learning Roadmap')
 
             with col18:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Photos\Golang.jpg'), use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Photos/Golang.jpg'), use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Golang.pdf', 'Golang Learning Roadmap')
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Golang.pdf', 'Golang Learning Roadmap')
 
         st.text("\n")
         st.text("\n")
@@ -172,26 +172,26 @@ if st.session_state["add_photo"] == True:
 
             with col19:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Photos\Graph_ql.png'), use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Photos/Graph_ql.png'), use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Graphql.pdf', 'GraphQL Learning Roadmap')
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Graphql.pdf', 'GraphQL Learning Roadmap')
 
             with col20:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Photos\Java.jpg'), use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Photos/Java.jpg'), use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Java.pdf', 'Java Learning Roadmap')
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Java.pdf', 'Java Learning Roadmap')
 
             with col21:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Photos\Javascript.png'), use_column_width=True)
-                pdf_helper('Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Javascript.pdf',
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Photos/Javascript.png'), use_column_width=True)
+                pdf_helper('Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Javascript.pdf',
                            'Javascript Learning Roadmap')
 
             with col22:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Photos\Kubernetes.jpg'), use_column_width=True)
-                pdf_helper('Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Kubernetes.pdf',
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Photos/Kubernetes.jpg'), use_column_width=True)
+                pdf_helper('Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Kubernetes.pdf',
                            'Kubernetes Learning Roadmap')
 
         st.text("\n")
@@ -202,27 +202,27 @@ if st.session_state["add_photo"] == True:
 
             with col23:
                 st.image(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Photos\MongoDb.png', use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Photos/MongoDb.png', use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Mongodb.pdf', 'MongoDB Learning Roadmap')
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Mongodb.pdf', 'MongoDB Learning Roadmap')
 
             with col24:
                 st.image(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Photos\\NodeJs.jpg', use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Photos/NodeJs.jpg', use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\\Nodejs.pdf', 'NodeJS Learning Roadmap')
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Nodejs.pdf', 'NodeJS Learning Roadmap')
 
             with col25:
                 st.image(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Photos\Python.png', use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Photos/Python.png', use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Python.pdf', 'Python Learning Roadmap')
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Python.pdf', 'Python Learning Roadmap')
 
             with col26:
                 st.image(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Photos\React.png', use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Photos/React.png', use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\React.pdf', 'React Learning Roadmap')
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/React.pdf', 'React Learning Roadmap')
 
         st.text("\n")
         st.text("\n")
@@ -232,24 +232,24 @@ if st.session_state["add_photo"] == True:
 
             with col27:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Photos\Spring_boot.png'), use_column_width=True)
-                pdf_helper('Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Spring-boot.pdf',
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Photos/Spring_boot.png'), use_column_width=True)
+                pdf_helper('Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Spring-boot.pdf',
                            'Spring Boot Learning Roadmap')
 
             with col28:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Photos\System_Design.jpg'), use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Photos/System_Design.jpg'), use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\System-design.pdf', 'System Design Roadmap')
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/System-design.pdf', 'System Design Roadmap')
 
             with col29:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Photos\Typescript.png'), use_column_width=True)
-                pdf_helper('Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Typescript.pdf',
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Photos/Typescript.png'), use_column_width=True)
+                pdf_helper('Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Typescript.pdf',
                            'Typescript Learning Roadmap')
 
             with col30:
                 st.image(image_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Photos\Vuejs.jpg'), use_column_width=True)
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Photos/Vuejs.jpg'), use_column_width=True)
                 pdf_helper(
-                    'Part_C\Resources\Roadmaps\Skill_Based_Roadmap\Vue.pdf', 'VueJS Learning Roadmap')
+                    'Part_C/Resources/Roadmaps/Skill_Based_Roadmap/Vue.pdf', 'VueJS Learning Roadmap')
