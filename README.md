@@ -23,7 +23,8 @@ In Part B of the Student Internship App, I have simulated real-time data by crea
 In Part C of the Student Internship App, I have harnessed the power of Pandas library to analyze the data collected from companies stored in Firebase. With secure authentication through Firebase, the app caters specifically to Second-year Computer Engineering students from the prestigious College of Engineering Pune. The app provides insightful visualizations, domain analysis, and personalized recommendations based on student's CGPA and interest. Additionally, the meticulously curated roadmaps offer a comprehensive guide to master popular programming languages, ensuring students are well-prepared for internship opportunities. Experience a data-driven journey towards internship success with our Student Internship App.
 ## Acknowledgements
 
-I extend my sincere appreciation to [Roadmap.sh](https://roadmap.sh/) for their invaluable resources. Their comprehensive roadmaps have greatly influenced the project, providing a structured and insightful guide for students. I am grateful for their dedication and commendable efforts in curating such a valuable resource. Thank you for inspiring and empowering my work.
+- I extend my sincere appreciation to [Roadmap.sh](https://roadmap.sh/) for their invaluable resources. Their comprehensive roadmaps have greatly influenced the project, providing a structured and insightful guide for students. I am grateful for their dedication and commendable efforts in curating such a valuable resource. Thank you for inspiring and empowering my work.
+- I would like to extend my deepest gratitude to Mrs. Trishna Ugale for her exceptional guidance and mentorship throughout this project. Your unwavering support, insightful feedback, and expertise have been instrumental in my growth and success. Thank you for being an inspiring teacher and for sharing your knowledge and passion with me.
  
 
 
