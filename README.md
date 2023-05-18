@@ -4,7 +4,7 @@ Student Internship App is a powerful platform designed to revolutionize the way 
 
 ## Installation
 
-- [App link for colecting Company Internship Details](https://aditya-choudhary599-rpoops-mini-p-part-aappstreamlit-app-p0d5jv.streamlit.app/)
+- [App link for collecting Company Internship Details](https://aditya-choudhary599-rpoops-mini-p-part-aappstreamlit-app-p0d5jv.streamlit.app/)
 - [Student Interface App Link](https://aditya-choudhary599-rpoops-mini-p-part-cappstreamlit-app-gg9wsq.streamlit.app/)
 ## Technologies Used
 
