@@ -541,7 +541,7 @@ if sbt_btn_1 or st.session_state.helper_1:
             st.success("✅Data written succesfully in database")
 
         elif company_skills_domains == '🧠Artificial Intelligence and Machine Learning':
-            db.child("Data Science and Analytics").push(company_data)
+            db.child("Artificial Intelligence and Machine Learning").push(company_data)
             st.success("✅Data written succesfully in database")
 
         elif company_skills_domains == '☁️Cloud Engineer':
