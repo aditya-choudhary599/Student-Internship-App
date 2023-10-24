@@ -1,4 +1,4 @@
-# RPOOPS_MINI_PROJECT
+# Student Internship App
 
 Student Internship App is a powerful platform designed to revolutionize the way students find and analyze internship opportunities. By seamlessly collecting data from various companies, my app provides valuable insights and analysis to help students make informed decisions about their internship choices.
 
